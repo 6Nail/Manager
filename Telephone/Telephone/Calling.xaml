@@ -1,0 +1,16 @@
+﻿<Page x:Class="Telephone.Calling"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Telephone"
+      mc:Ignorable="d"
+      Title="Calling" Height="168.415" Width="139.071">
+
+    <Grid Background="White">
+        <Label FontSize="32" Content="Звонок" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top"/>
+        <Label Name="timeCall" Content="Ожидание  .  .  ." HorizontalAlignment="Left" Margin="26,57,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Name="cancelCall" Content="Отмена" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Width="116" Height="27" Background="#FFEC2E25" FontWeight="Bold" Click="CancelCall"/>
+
+    </Grid>
+</Page>
